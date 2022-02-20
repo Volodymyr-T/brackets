@@ -1,4 +1,4 @@
-module.exports = function check(str, bracketsConfig) {
+module.exports = function check(str, bC) {
   let result = false;
   let curLength = str.length;
   while (true) {
